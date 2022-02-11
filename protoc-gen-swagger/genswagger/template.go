@@ -17,12 +17,12 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/evanphx/grpc-gateway/internal/casing"
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	pbdescriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	structpb "github.com/golang/protobuf/ptypes/struct"
-	"github.com/grpc-ecosystem/grpc-gateway/internal/casing"
 	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
 	swagger_options "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger/options"
 )
